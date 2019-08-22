@@ -1,0 +1,30 @@
+version: 2
+
+sources:
+  - name: public
+    tables:
+      - name: promote_activity
+
+models:
+  - name: vamovo_transform
+    description: A table summarizing athlete activity
+
+    columns:
+        - name: athlete_id
+          description: The athlete
+          tests:
+              - not_null
+
+        - name: activity_type
+          description: "What the athlete did"
+          tests:
+              - not_null
+
+  - name: rides
+    description: A table summarizing athlete rides
+
+    columns:
+        - name: athlete_id
+          description: The athlete
+          tests:
+              - not_null
