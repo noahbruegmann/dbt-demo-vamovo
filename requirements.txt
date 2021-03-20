@@ -31,7 +31,7 @@ googleapis-common-protos==1.6.0
 idna==2.8
 ijson==2.4
 isodate==0.6.0
-Jinja2==2.10.1
+Jinja2==2.11.3
 jmespath==0.9.4
 json-rpc==1.12.1
 jsonschema==3.0.2
